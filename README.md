@@ -1,5 +1,7 @@
 # Qwen 2 Image API Skill for RunAPI
 
+[![skills.sh](https://skills.sh/b/runapi-ai/qwen-2)](https://skills.sh/runapi-ai/qwen-2)
+
 Generate, transform, and edit images with Qwen 2 text-to-image, image-to-image, and image editing. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate Qwen 2 through RunAPI.
 
 The canonical agent file is `skills/qwen-2/SKILL.md`.
@@ -7,7 +9,7 @@ The canonical agent file is `skills/qwen-2/SKILL.md`.
 ## Install
 
 ```bash
-npx skills add runapi-ai/qwen2 -g
+npx skills add runapi-ai/qwen-2 -g
 ```
 
 Or manually: clone this repo and copy `skills/qwen-2/` into your agent's skills directory.
