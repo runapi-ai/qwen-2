@@ -12,7 +12,18 @@ The canonical agent file is `skills/qwen-2/SKILL.md`.
 npx skills add runapi-ai/qwen-2 -g
 ```
 
-Or manually: clone this repo and copy `skills/qwen-2/` into your agent's skills directory.
+Or paste this prompt to your AI agent:
+
+```text
+Install the qwen-2 skill for me:
+
+1. Clone https://github.com/runapi-ai/qwen-2
+2. Copy the skills/qwen-2/ directory into your
+   user-level skills directory (e.g. ~/.claude/skills/
+   for Claude Code, ~/.codex/skills/ for Codex).
+3. Verify that SKILL.md is present.
+4. Confirm the install path when done.
+```
 
 ## Quick example
 
