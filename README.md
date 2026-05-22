@@ -1,6 +1,23 @@
-# Qwen 2 Image API Skill for RunAPI
+<p align="center">
+  <a href="https://github.com/runapi-ai/qwen-2">
+    <h3 align="center">Qwen 2 Image API Skill for RunAPI</h3>
+  </a>
+</p>
+
+<p align="center">
+  Install this agent skill, inspect Qwen 2 fields, then run jobs through the RunAPI CLI.
+</p>
+
+<p align="center">
+  <a href="https://runapi.ai/models/qwen-2.md"><strong>Model Reference</strong></a> · <a href="https://skills.sh/runapi-ai/qwen-2"><strong>Install Skill</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/qwen-2-sdk"><strong>SDK</strong></a>
+</p>
+
+<div align="center">
 
 [![skills.sh](https://skills.sh/b/runapi-ai/qwen-2)](https://skills.sh/runapi-ai/qwen-2)
+
+</div>
+<br/>
 
 Generate, transform, and edit images with Qwen 2 text-to-image, image-to-image, and image editing. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate Qwen 2 through RunAPI.
 
