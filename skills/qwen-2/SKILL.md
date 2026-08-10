@@ -36,7 +36,7 @@ Generate and edit images with Qwen 2 through RunAPI. The default path for one-of
 When integrating Qwen 2 into an app, backend, worker, library, Rails service, Node service, Go service, webhook pipeline, or production workflow, start by checking the current SDK package and official usage. Confirm install commands, client methods (`create`, `get`, `run`), request fields, response shape, and error classes before using CLI help or raw HTTP examples. Use a RunAPI SDK package:
 
 - JavaScript / TypeScript: `@runapi.ai/qwen-2`
-- Ruby: `runapi-qwen_2`
+- Ruby: `runapi-qwen-2`
 - Go: `github.com/runapi-ai/qwen-2-sdk/go`
 
 ## CLI path
@@ -63,7 +63,7 @@ runapi qwen-2 text-to-image --async --input-file request.json
 runapi wait <task-id> --service qwen-2 --action text-to-image
 ```
 
-Available commands: `text-to-image`, `remix-image`, `edit-image`.
+Available commands: `text-to-image`, `edit-image`.
 
 ## Generated file storage
 
@@ -78,5 +78,4 @@ RunAPI-generated file URLs are temporary. Download and store generated images, v
 ## Variants
 
 - [Text to image](https://runapi.ai/models/qwen-2/text-to-image.md)
-- [Image remix](https://runapi.ai/models/qwen-2/remix-image.md)
 - [Image edit](https://runapi.ai/models/qwen-2/edit-image.md)
